@@ -1,0 +1,24 @@
+{
+    "manifest_version" : 3,
+    "name" : "Pomo-Toto",
+    "version" : "1.0",
+    "description" : "Concentrate!! & Take a Break!!",
+    "icons": {
+        "48" : "icon.png",
+        "128" : "icon.png"
+    },
+    "action" : {
+        "default_icon" : {
+            "24" : "icon.png",
+            "32" : "icon.png"
+        },
+        "default_title" : "Pomo-Tomo",
+        "default_popup" : "popup/popup.html"
+    },
+    "permissions": ["storage", "alarms", "notifications"],
+    "options_page": "options/options.html",
+    "background":{
+        "service_worker": "background.js"
+    }
+      
+}

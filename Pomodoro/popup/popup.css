@@ -1,0 +1,98 @@
+@media (prefers-color-scheme: light) {
+    body {
+      background: linear-gradient(to right bottom, #d01414, #fa6e6e) ;
+      background-attachment: fixed;
+      color: #000;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+    width: 10px;
+    }
+  /* Track */
+    ::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #f38888, #e45252); 
+    }
+   
+  /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #f38888, #a00e0e); 
+    border-radius: 10px;
+    }
+  
+  /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #f84949 , #890000 ); 
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+      background: linear-gradient(to right bottom, #390101, #b70000 ) #410101;
+      background-attachment: fixed;
+      color: #FFF;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+        }
+      
+      /* Track */
+        ::-webkit-scrollbar-track {
+        background: #940606; 
+        }
+       
+      /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #940606, #250000); 
+        border-radius: 10px;
+        }
+      
+      /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to bottom, #940606 , #000000 ); 
+        }
+}
+body {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    /* padding: px; */
+    
+}
+#header-icon{
+    text-align: center;
+    margin-bottom: 0;
+}
+button{
+    margin: 10px;
+    padding: 7px 10px;
+    border-radius: 30px;
+    border-color: #c03131;
+    color: #000;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #f24646d1;
+}
+input{
+    padding: 7px;
+    border-radius: 10px;
+    border-color: #c03131;
+
+}
+ #text-box{
+    padding: 7px;
+ }
+#text-box div, #text-box input{
+    padding: 7px;
+}
+#time{
+    margin-top: 0;
+    font-size: 40px;
+}
+/* #settings{
+    top: 0;
+    left: 0;
+    right: 100%;
+    text-decoration: none;
+} */
+
